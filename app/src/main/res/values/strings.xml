@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Weather Uzbekistan</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="setting">Setting</string>
+    <string name="units">UNITS</string>
+    <string name="temperature_units">Temperature units</string>
+    <string name="wind_speed_units">Wind speed units</string>
+    <string name="atmospheric_pressure_units">Atmospheric pressure units</string>
+    <string name="state">State</string>
+    <string name="successfully_updated">Updating...</string>
+    <string name="c">°</string>
+    <string name="weather_for_three_days">Weather for three days</string>
+    <string name="air_quality_index">Air Quality Index</string>
+    <string name="aqi">AQI</string>
+    <string name="full_air_quality_forecast">Full air quality forecast</string>
+    <string name="data_provided_in_party_by">Data provided in party by</string>
+    <string name="open_weather">OpenWeather</string>
+    <string-array name="gradus">
+        <item>°C</item>
+        <item>°F</item>
+    </string-array>
+    <string-array name="speed">
+        <item>m/s</item>
+        <item>km/s</item>
+    </string-array>
+    <string-array name="pressure">
+        <item>Millibar(mBar)</item>
+        <item>Standard Atmosphere</item>
+
+    </string-array>
+</resources>

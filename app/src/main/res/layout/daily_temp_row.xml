@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/daily_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/main_date_text_size" />
+
+    <TextView
+        android:id="@+id/daily_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/grid_row_title_text_size" />
+
+    <ImageView
+        android:id="@+id/daily_image"
+        android:layout_width="@dimen/btn_standard_size"
+        android:layout_height="@dimen/btn_standard_size"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/cloudy" />
+
+    <TextView
+        android:id="@+id/daily_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/grid_row_title_text_size" />
+
+</LinearLayout>
